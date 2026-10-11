@@ -6,7 +6,7 @@ ellam terminalil thanne
 
 first name print aakuka   -   
 printf "Name : ....\nRoll No : ......\nClass : S7 ER\n"
-**space after print is must alle kittilla**
+(**space after print is must alle kittilla**)
 
 ini file open aakuka 
 .c extensio9n kodkanam ille kittilla
