@@ -13,6 +13,30 @@
 10. Close the socket.
 11. Stop.
 
+# udp client
+
+
+# Algorithm: UDP Client
+
+1. Start.
+2. Declare the client socket, server address structure,
+   buffer, port number, and address size.
+3. Create a UDP socket using
+   socket(AF_INET, SOCK_DGRAM, 0).
+4. If socket creation fails, display an error and stop.
+5. Read the server port number from the user.
+6. Set the server address family to AF_INET.
+7. Set the server port using htons(port).
+8. Set the server IP address to 127.0.0.1
+   using inet_addr().
+9. Initialize the address size using sizeof(serverAddr).
+10. Copy the message into the buffer using strcpy().
+11. Send the message to the server using sendto().
+12. Receive the server's reply using recvfrom().
+13. Display the received message.
+14. Close the socket using close().
+15. Stop.
+
 
 
 # Pseudocode: UDP Server
