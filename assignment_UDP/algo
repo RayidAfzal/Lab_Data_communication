@@ -1,0 +1,41 @@
+
+# Algorithm: UDP Server
+
+1. Start.
+2. Create a UDP socket using `socket()`.
+3. Read the port number.
+4. Initialize the server address.
+5. Bind the socket to the server address using `bind()`.
+6. Receive the client's message using `recvfrom()`.
+7. Display the received message.
+8. Prepare a reply message.
+9. Send the reply using `sendto()`.
+10. Close the socket.
+11. Stop.
+
+
+
+# Pseudocode: UDP Server
+
+START
+    Create UDP socket
+    IF socket creation fails
+        Display error
+        STOP
+    END IF
+
+    Read port number
+    Initialize server address
+    Bind socket to address
+
+    Receive message using recvfrom()
+    Display received message
+
+    Prepare reply message
+    Send reply using sendto()
+
+    Close socket
+STOP
+
+
+
