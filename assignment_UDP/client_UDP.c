@@ -34,7 +34,7 @@ int main()
 
     printf("\nTrying to connect...\n");
 
-    strcpy(buffer, "HI, I AM RAYID...");
+    strcpy(buffer, "HI, I am CLIENT...");
     sendto(clientSocket, buffer, strlen(buffer) + 1, 0,
            (struct sockaddr *)&serverAddr, addr_size);
 
